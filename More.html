@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <body>
+    <script>
+    window.alert("WARNING: This Page only works on Google Chrome");
+    </script>
+<style>
+div {
+      width: auto;
+      height: 1000px;
+    background-color: red;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: .00001s; /* Chrome, Safari, Opera */
+    animation-name: example;
+  -webkit-animation-iteration-count: infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+</style>
+</head>
+
+
+
+
+<div></div>
+</body>
+</html>
